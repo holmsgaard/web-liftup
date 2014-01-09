@@ -1,0 +1,59 @@
+/* helpers */
+.clear:after, clear:before {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Navigation */
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul a {
+    display: block;
+}
+
+nav.horisontal li {
+    float: left;
+}
+
+/* Top navigation */
+#nav-top {
+    float: right;
+}
+
+#nav-top a {
+    padding: 10px;
+}
+
+#nav-shortcuts {
+    float: right;
+}
+
+/* Layout */
+.section-top {
+    background: url('../test-media/bg1.jpg') top center no-repeat;
+    background-attachment:fixed;
+    color: #fff;
+    min-height: 600px;
+    background-size: cover;
+}
+
+.section-white {
+    color: #fff;
+}
+
+.section-white h1 {
+    color: #fff;
+}
+
+.section-white {
+    
+}
